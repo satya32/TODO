@@ -17,7 +17,7 @@ body {
     float: left;
   }
   li, h3 {
-    clear:both;
+    clear:both;  
     list-style:none;
   }
   input, button {

@@ -21,10 +21,10 @@ let  createNewTaskElement = function (taskString) {       // New Task List Item
     label.innerText = taskString;
 
     listItem.appendChild(checkBox);      // Each element needs to be appended
-    listItem.appendChild(label);         //
-    listItem.appendChild(editInput);     //
-    listItem.appendChild(editButton);    //
-    listItem.appendChild(deleteButton);  //
+    listItem.appendChild(label);         
+    listItem.appendChild(editInput);     
+    listItem.appendChild(editButton);    
+    listItem.appendChild(deleteButton);  
 
     return listItem;
 };
